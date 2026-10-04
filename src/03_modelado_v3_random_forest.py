@@ -1,4 +1,5 @@
 import json
+
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -21,6 +22,7 @@ from sklearn.metrics import (
     precision_score,
     recall_score,
     roc_auc_score,
+    roc_curve,
 )
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder
@@ -30,7 +32,7 @@ from database import engine_sqlserver
 
 
 # ============================================================
-# 1. CONFIGURACIÓN DEL MODELO
+# 1. CONFIGURACIÓN GENERAL DEL MODELO
 # ============================================================
 
 NOMBRE_MODELO = "RandomForest_v3"
@@ -53,11 +55,52 @@ CAT = [
 
 FEATURES = NUM + CAT
 
+# Umbral utilizado para convertir probabilidades en 0 / 1
 UMBRAL = 0.50
 
 
 # ============================================================
-# 2. FUNCIÓN PARA EVALUAR EL MODELO
+# 2. METAS DE LOS KPI
+# ============================================================
+#
+# KPI-01 y KPI-02 son los que ya habían definido.
+#
+# Las metas de KPI-03 a KPI-10 son propuestas para realizar
+# la primera evaluación. Si el profesor establece otros
+# valores, se cambian solamente aquí.
+#
+# IMPORTANTE:
+# KPI-02 utiliza una REFERENCIA OPERATIVA, no una meta de
+# aprobación del modelo.
+# ============================================================
+
+META_KPI_01 = 90.00
+REFERENCIA_KPI_02 = 15.00
+
+META_KPI_03 = 70.00
+META_KPI_04 = 80.00
+META_KPI_05 = 80.00
+META_KPI_06 = 20.00
+META_KPI_07 = 30.00
+META_KPI_08 = 75.00
+META_KPI_09 = 0.80
+META_KPI_10 = 0.00
+
+
+# ============================================================
+# 3. FUNCIÓN SEGURA PARA DIVISIONES
+# ============================================================
+
+def dividir(numerador, denominador):
+
+    if denominador == 0:
+        return 0.0
+
+    return numerador / denominador
+
+
+# ============================================================
+# 4. FUNCIÓN PARA EVALUAR EL MODELO
 # ============================================================
 
 def evaluar(y, proba, umbral=0.50):
@@ -73,6 +116,7 @@ def evaluar(y, proba, umbral=0.50):
     ).ravel()
 
     return {
+
         "citas": int(len(y)),
 
         "VP": int(vp),
@@ -81,12 +125,18 @@ def evaluar(y, proba, umbral=0.50):
         "VN": int(vn),
 
         "accuracy_pct": round(
-            100 * accuracy_score(y, pred),
+            100 * accuracy_score(
+                y,
+                pred
+            ),
             2
         ),
 
         "balanced_accuracy_pct": round(
-            100 * balanced_accuracy_score(y, pred),
+            100 * balanced_accuracy_score(
+                y,
+                pred
+            ),
             2
         ),
 
@@ -154,49 +204,805 @@ def evaluar(y, proba, umbral=0.50):
 
 
 # ============================================================
-# 3. FUNCIÓN PARA GENERAR UN ÁRBOL DEL RANDOM FOREST
+# 5. FUNCIÓN PARA CALCULAR LOS 10 KPI
 # ============================================================
 
-def generar_arbol_visual(modelo, salida):
+def calcular_kpis(
+    registros_evaluados,
+    registros_validados,
+    citas_validadas_sin_asistencia,
+    citas_validadas_resultado_conocido,
+    metricas,
+    baseline_accuracy
+):
 
-    print(
-        "\nGenerando visualización de un árbol "
-        "del Random Forest..."
+    """
+    Calcula los 10 KPI definidos para el proyecto.
+
+    KPI-01:
+        Porcentaje de Registros Validados
+
+    KPI-02:
+        Tasa de Inasistencia de Registros Validados
+
+    KPI-03:
+        Tasa de Detección de Inasistencia (Recall)
+
+    KPI-04:
+        Precisión de Predicción de Inasistencia
+
+    KPI-05:
+        Exactitud General del Modelo
+
+    KPI-06:
+        Tasa de Falsas Alarmas
+
+    KPI-07:
+        Tasa de Inasistencias No Detectadas
+
+    KPI-08:
+        Rendimiento en Detección de Inasistencias (F2)
+
+    KPI-09:
+        Capacidad de Diferenciación (ROC-AUC)
+
+    KPI-10:
+        Mejora frente a Clasificación Base
+    """
+
+    vp = metricas["VP"]
+    fp = metricas["FP"]
+    fn = metricas["FN"]
+    vn = metricas["VN"]
+
+    # --------------------------------------------------------
+    # KPI-01
+    # Porcentaje de Registros Validados
+    # --------------------------------------------------------
+
+    prv = round(
+        100 * dividir(
+            registros_validados,
+            registros_evaluados
+        ),
+        2
     )
 
     # --------------------------------------------------------
-    # Obtener el preprocesador ya entrenado
+    # KPI-02
+    # Tasa de Inasistencia de Registros Validados
     # --------------------------------------------------------
+
+    tirv = round(
+        100 * dividir(
+            citas_validadas_sin_asistencia,
+            citas_validadas_resultado_conocido
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-03
+    # Recall
+    # --------------------------------------------------------
+
+    recall = round(
+        100 * dividir(
+            vp,
+            vp + fn
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-04
+    # Precision
+    # --------------------------------------------------------
+
+    precision = round(
+        100 * dividir(
+            vp,
+            vp + fp
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-05
+    # Accuracy
+    # --------------------------------------------------------
+
+    accuracy = round(
+        100 * dividir(
+            vp + vn,
+            vp + vn + fp + fn
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-06
+    # Tasa de Falsas Alarmas
+    #
+    # De quienes realmente asistirían,
+    # cuántos fueron clasificados como inasistencia.
+    # --------------------------------------------------------
+
+    falsas_alarmas = round(
+        100 * dividir(
+            fp,
+            fp + vn
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-07
+    # Tasa de Inasistencias No Detectadas
+    # --------------------------------------------------------
+
+    no_detectadas = round(
+        100 * dividir(
+            fn,
+            vp + fn
+        ),
+        2
+    )
+
+    # --------------------------------------------------------
+    # KPI-08
+    # F2
+    # --------------------------------------------------------
+
+    f2 = metricas["f2_pct"]
+
+    # --------------------------------------------------------
+    # KPI-09
+    # ROC-AUC
+    # --------------------------------------------------------
+
+    roc_auc = metricas["roc_auc"]
+
+    # --------------------------------------------------------
+    # KPI-10
+    # Mejora frente al baseline
+    # --------------------------------------------------------
+
+    mejora_baseline = round(
+        accuracy - baseline_accuracy,
+        2
+    )
+
+    # ========================================================
+    # CONSTRUIR TABLA DE KPI
+    # ========================================================
+
+    kpis = [
+
+        {
+            "codigo": "KPI-01",
+            "nombre": "Porcentaje de Registros Validados",
+            "resultado": prv,
+            "unidad": "%",
+            "meta": f">= {META_KPI_01:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if prv >= META_KPI_01
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-02",
+            "nombre":
+                "Tasa de Inasistencia de Registros Validados",
+            "resultado": tirv,
+            "unidad": "%",
+            "meta":
+                f"Referencia {REFERENCIA_KPI_02:.2f}%",
+            "estado": (
+                "POR ENCIMA DE REFERENCIA"
+                if tirv > REFERENCIA_KPI_02
+                else "DENTRO DE REFERENCIA"
+            ),
+            "tipo": "referencia",
+        },
+
+        {
+            "codigo": "KPI-03",
+            "nombre":
+                "Tasa de Detección de Inasistencia (Recall)",
+            "resultado": recall,
+            "unidad": "%",
+            "meta": f">= {META_KPI_03:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if recall >= META_KPI_03
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-04",
+            "nombre":
+                "Precisión de Predicción de Inasistencia",
+            "resultado": precision,
+            "unidad": "%",
+            "meta": f">= {META_KPI_04:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if precision >= META_KPI_04
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-05",
+            "nombre":
+                "Exactitud General del Modelo",
+            "resultado": accuracy,
+            "unidad": "%",
+            "meta": f">= {META_KPI_05:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if accuracy >= META_KPI_05
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-06",
+            "nombre":
+                "Tasa de Falsas Alarmas de Inasistencia",
+            "resultado": falsas_alarmas,
+            "unidad": "%",
+            "meta": f"<= {META_KPI_06:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if falsas_alarmas <= META_KPI_06
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-07",
+            "nombre":
+                "Tasa de Inasistencias No Detectadas",
+            "resultado": no_detectadas,
+            "unidad": "%",
+            "meta": f"<= {META_KPI_07:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if no_detectadas <= META_KPI_07
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-08",
+            "nombre":
+                "Rendimiento en Detección de Inasistencias (F2)",
+            "resultado": f2,
+            "unidad": "%",
+            "meta": f">= {META_KPI_08:.2f}%",
+            "estado": (
+                "CUMPLE"
+                if f2 >= META_KPI_08
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-09",
+            "nombre":
+                "Capacidad de Diferenciación del Modelo (ROC-AUC)",
+            "resultado": roc_auc,
+            "unidad": "índice",
+            "meta": f">= {META_KPI_09:.2f}",
+            "estado": (
+                "CUMPLE"
+                if roc_auc >= META_KPI_09
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+
+        {
+            "codigo": "KPI-10",
+            "nombre":
+                "Mejora frente a la Clasificación Base",
+            "resultado": mejora_baseline,
+            "unidad": "puntos porcentuales",
+            "meta": f"> {META_KPI_10:.2f}",
+            "estado": (
+                "CUMPLE"
+                if mejora_baseline > META_KPI_10
+                else "NO CUMPLE"
+            ),
+            "tipo": "cumplimiento",
+        },
+    ]
+
+    return pd.DataFrame(kpis)
+
+
+# ============================================================
+# 6. MOSTRAR RESULTADOS DE LOS KPI
+# ============================================================
+
+def mostrar_kpis(df_kpis):
+
+    print("\n")
+    print("=" * 100)
+    print("EVALUACIÓN DE LOS 10 KPI")
+    print("=" * 100)
+
+    for _, fila in df_kpis.iterrows():
+
+        print(
+            f"\n{fila['codigo']} - "
+            f"{fila['nombre']}"
+        )
+
+        print(
+            f"Resultado: "
+            f"{fila['resultado']} "
+            f"{fila['unidad']}"
+        )
+
+        print(
+            f"Meta / referencia: "
+            f"{fila['meta']}"
+        )
+
+        print(
+            f"Estado: "
+            f"{fila['estado']}"
+        )
+
+    # Solo KPI que realmente tienen criterio
+    # de cumplimiento.
+    evaluables = df_kpis[
+        df_kpis["tipo"] == "cumplimiento"
+    ]
+
+    cumplen = int(
+        (
+            evaluables["estado"] == "CUMPLE"
+        ).sum()
+    )
+
+    no_cumplen = int(
+        (
+            evaluables["estado"] == "NO CUMPLE"
+        ).sum()
+    )
+
+    print("\n")
+    print("=" * 100)
+    print("RESUMEN DE KPI")
+    print("=" * 100)
+
+    print(
+        f"KPI totales calculados: "
+        f"{len(df_kpis)}"
+    )
+
+    print(
+        f"KPI con meta de cumplimiento: "
+        f"{len(evaluables)}"
+    )
+
+    print(
+        f"KPI que cumplen: "
+        f"{cumplen}"
+    )
+
+    print(
+        f"KPI que no cumplen: "
+        f"{no_cumplen}"
+    )
+
+    print(
+        "KPI-02: indicador comparado "
+        "contra referencia operativa."
+    )
+
+    print(
+        "\nRequisito indicado para la presentación: "
+        "mínimo 4 KPI cumplidos."
+    )
+
+    if cumplen >= 4:
+
+        print(
+            "\nRESULTADO GENERAL: "
+            "SE ALCANZA EL MÍNIMO DE 4 KPI."
+        )
+
+    else:
+
+        print(
+            "\nRESULTADO GENERAL: "
+            "NO SE ALCANZA TODAVÍA "
+            "EL MÍNIMO DE 4 KPI."
+        )
+
+    print("=" * 100)
+
+    return cumplen
+
+
+# ============================================================
+# 7. GRÁFICO DE LOS KPI
+# ============================================================
+
+def generar_grafico_kpis(df_kpis, salida):
+
+    # Para un gráfico comparable utilizamos solamente
+    # los KPI expresados como porcentaje.
+    datos = df_kpis[
+        df_kpis["unidad"] == "%"
+    ].copy()
+
+    if datos.empty:
+        return
+
+    plt.figure(
+        figsize=(13, 7)
+    )
+
+    plt.bar(
+        datos["codigo"],
+        datos["resultado"]
+    )
+
+    plt.axhline(
+        y=90,
+        linestyle="--",
+        linewidth=1,
+        label="Referencia visual 90%"
+    )
+
+    plt.xlabel("KPI")
+
+    plt.ylabel("Resultado (%)")
+
+    plt.title(
+        "Resultados de KPI expresados en porcentaje"
+    )
+
+    plt.ylim(
+        0,
+        max(
+            100,
+            datos["resultado"].max() + 10
+        )
+    )
+
+    plt.legend()
+
+    plt.tight_layout()
+
+    ruta = (
+        salida
+        / "grafico_kpis_random_forest_v3.png"
+    )
+
+    plt.savefig(
+        ruta,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    print(
+        f"\nGráfico de KPI guardado en:\n"
+        f"{ruta.resolve()}"
+    )
+
+
+# ============================================================
+# 8. MATRIZ DE CONFUSIÓN
+# ============================================================
+
+def generar_matriz_confusion(
+    y_real,
+    pred,
+    salida
+):
+
+    matriz = confusion_matrix(
+        y_real,
+        pred,
+        labels=[0, 1]
+    )
+
+    plt.figure(
+        figsize=(7, 6)
+    )
+
+    plt.imshow(
+        matriz,
+        interpolation="nearest"
+    )
+
+    plt.title(
+        "Matriz de confusión - Random Forest"
+    )
+
+    plt.colorbar()
+
+    clases = [
+        "Asiste",
+        "No asiste"
+    ]
+
+    posiciones = range(
+        len(clases)
+    )
+
+    plt.xticks(
+        posiciones,
+        clases
+    )
+
+    plt.yticks(
+        posiciones,
+        clases
+    )
+
+    plt.xlabel(
+        "Predicción del modelo"
+    )
+
+    plt.ylabel(
+        "Resultado real"
+    )
+
+    for i in range(
+        matriz.shape[0]
+    ):
+
+        for j in range(
+            matriz.shape[1]
+        ):
+
+            plt.text(
+                j,
+                i,
+                str(matriz[i, j]),
+                horizontalalignment="center",
+                verticalalignment="center",
+                fontsize=14
+            )
+
+    plt.tight_layout()
+
+    ruta = (
+        salida
+        / "matriz_confusion_random_forest_v3.png"
+    )
+
+    plt.savefig(
+        ruta,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    print(
+        f"\nMatriz de confusión guardada en:\n"
+        f"{ruta.resolve()}"
+    )
+
+
+# ============================================================
+# 9. CURVA ROC
+# ============================================================
+
+def generar_curva_roc(
+    y_real,
+    proba,
+    salida
+):
+
+    fpr, tpr, _ = roc_curve(
+        y_real,
+        proba
+    )
+
+    auc = roc_auc_score(
+        y_real,
+        proba
+    )
+
+    plt.figure(
+        figsize=(8, 6)
+    )
+
+    plt.plot(
+        fpr,
+        tpr,
+        linewidth=2,
+        label=f"Random Forest (AUC = {auc:.4f})"
+    )
+
+    plt.plot(
+        [0, 1],
+        [0, 1],
+        linestyle="--",
+        linewidth=1,
+        label="Clasificación aleatoria"
+    )
+
+    plt.xlabel(
+        "Tasa de falsos positivos"
+    )
+
+    plt.ylabel(
+        "Tasa de verdaderos positivos"
+    )
+
+    plt.title(
+        "Curva ROC - Random Forest"
+    )
+
+    plt.legend()
+
+    plt.tight_layout()
+
+    ruta = (
+        salida
+        / "curva_roc_random_forest_v3.png"
+    )
+
+    plt.savefig(
+        ruta,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    print(
+        f"\nCurva ROC guardada en:\n"
+        f"{ruta.resolve()}"
+    )
+
+
+# ============================================================
+# 10. IMPORTANCIA DE VARIABLES
+# ============================================================
+
+def generar_importancia_variables(
+    modelo,
+    salida,
+    top_n=15
+):
 
     preprocesador = modelo.named_steps[
         "preparar"
     ]
 
-    # --------------------------------------------------------
-    # Obtener nombres de todas las variables
-    # después del OneHotEncoder
-    # --------------------------------------------------------
+    random_forest = modelo.named_steps[
+        "clasificar"
+    ]
 
-    nombres_variables = (
-        preprocesador.get_feature_names_out()
+    nombres = (
+        preprocesador
+        .get_feature_names_out()
     )
 
-    # --------------------------------------------------------
-    # Obtener el Random Forest entrenado
-    # --------------------------------------------------------
+    importancias = (
+        random_forest
+        .feature_importances_
+    )
+
+    importancia = pd.DataFrame({
+
+        "variable": nombres,
+
+        "importancia": importancias,
+
+    })
+
+    importancia = (
+        importancia
+        .sort_values(
+            "importancia",
+            ascending=False
+        )
+        .head(top_n)
+        .sort_values(
+            "importancia",
+            ascending=True
+        )
+    )
+
+    plt.figure(
+        figsize=(10, 8)
+    )
+
+    plt.barh(
+        importancia["variable"],
+        importancia["importancia"]
+    )
+
+    plt.xlabel(
+        "Importancia"
+    )
+
+    plt.ylabel(
+        "Variable"
+    )
+
+    plt.title(
+        "Variables con mayor importancia "
+        "en Random Forest"
+    )
+
+    plt.tight_layout()
+
+    ruta = (
+        salida
+        / "importancia_variables_random_forest_v3.png"
+    )
+
+    plt.savefig(
+        ruta,
+        dpi=300,
+        bbox_inches="tight"
+    )
+
+    plt.close()
+
+    print(
+        f"\nImportancia de variables guardada en:\n"
+        f"{ruta.resolve()}"
+    )
+
+
+# ============================================================
+# 11. ÁRBOL REPRESENTATIVO DEL RANDOM FOREST
+# ============================================================
+
+def generar_arbol_visual(
+    modelo,
+    salida
+):
+
+    print(
+        "\nGenerando visualización "
+        "de un árbol del Random Forest..."
+    )
+
+    preprocesador = modelo.named_steps[
+        "preparar"
+    ]
+
+    nombres_variables = (
+        preprocesador
+        .get_feature_names_out()
+    )
 
     random_forest = modelo.named_steps[
         "clasificar"
     ]
 
-    # --------------------------------------------------------
-    # Extraer el primer árbol
-    #
-    # El Random Forest tiene 300 árboles.
-    # estimators_[0] corresponde al árbol número 1.
-    # --------------------------------------------------------
-
-    arbol = random_forest.estimators_[0]
+    arbol = (
+        random_forest
+        .estimators_[0]
+    )
 
     print(
         f"Total de árboles en el Random Forest: "
@@ -207,20 +1013,9 @@ def generar_arbol_visual(modelo, salida):
         "Árbol seleccionado para visualizar: 1"
     )
 
-    # --------------------------------------------------------
-    # Crear figura
-    # --------------------------------------------------------
-
     plt.figure(
         figsize=(30, 16)
     )
-
-    # --------------------------------------------------------
-    # Dibujar árbol
-    #
-    # max_depth=3 limita solamente la visualización.
-    # NO modifica el árbol entrenado.
-    # --------------------------------------------------------
 
     plot_tree(
         arbol,
@@ -248,23 +1043,15 @@ def generar_arbol_visual(modelo, salida):
 
     plt.tight_layout()
 
-    # --------------------------------------------------------
-    # Ruta de salida
-    # --------------------------------------------------------
-
     ruta_arbol = (
         salida
         / "arbol_random_forest_v3.png"
     )
 
-    # --------------------------------------------------------
-    # Guardar imagen
-    # --------------------------------------------------------
-
     plt.savefig(
         ruta_arbol,
         dpi=300,
-        bbox_inches="tight",
+        bbox_inches="tight"
     )
 
     plt.close()
@@ -276,7 +1063,190 @@ def generar_arbol_visual(modelo, salida):
 
 
 # ============================================================
-# 4. FUNCIÓN PRINCIPAL
+# 12. GENERAR INFORME RESUMIDO
+# ============================================================
+
+def generar_informe(
+    salida,
+    df_kpis,
+    met_test,
+    registros_evaluados,
+    registros_validados,
+    cumplen
+):
+
+    ruta = (
+        salida
+        / "informe_resumido_random_forest_v3.txt"
+    )
+
+    lineas = []
+
+    lineas.append(
+        "=" * 72
+    )
+
+    lineas.append(
+        "RED SALUD INTEGRAL CARAZO"
+    )
+
+    lineas.append(
+        "INFORME RESUMIDO - RANDOM FOREST V3"
+    )
+
+    lineas.append(
+        "=" * 72
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "OBJETIVO:"
+    )
+
+    lineas.append(
+        "Estimar la probabilidad de inasistencia "
+        "a las citas médicas."
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "DATOS:"
+    )
+
+    lineas.append(
+        f"Registros evaluados: "
+        f"{registros_evaluados:,}"
+    )
+
+    lineas.append(
+        f"Registros validados: "
+        f"{registros_validados:,}"
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "CONFIGURACIÓN DEL MODELO:"
+    )
+
+    lineas.append(
+        "Modelo: Random Forest"
+    )
+
+    lineas.append(
+        "Número de árboles: 300"
+    )
+
+    lineas.append(
+        "Profundidad máxima: 4"
+    )
+
+    lineas.append(
+        "Mínimo de registros por hoja: 10"
+    )
+
+    lineas.append(
+        'Variables por división: sqrt'
+    )
+
+    lineas.append(
+        f"Umbral de clasificación: {UMBRAL}"
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "MATRIZ DE CONFUSIÓN:"
+    )
+
+    lineas.append(
+        f"VP: {met_test['VP']}"
+    )
+
+    lineas.append(
+        f"FP: {met_test['FP']}"
+    )
+
+    lineas.append(
+        f"FN: {met_test['FN']}"
+    )
+
+    lineas.append(
+        f"VN: {met_test['VN']}"
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "RESULTADOS DE LOS KPI:"
+    )
+
+    for _, fila in df_kpis.iterrows():
+
+        lineas.append(
+            f"{fila['codigo']} - "
+            f"{fila['nombre']}: "
+            f"{fila['resultado']} "
+            f"{fila['unidad']} | "
+            f"{fila['meta']} | "
+            f"{fila['estado']}"
+        )
+
+    lineas.append("")
+
+    lineas.append(
+        f"KPI con criterio de cumplimiento "
+        f"que alcanzan su meta: {cumplen}"
+    )
+
+    if cumplen >= 4:
+
+        lineas.append(
+            "Se alcanza el requisito mínimo "
+            "de cuatro KPI cumplidos."
+        )
+
+    else:
+
+        lineas.append(
+            "Todavía no se alcanza el requisito "
+            "mínimo de cuatro KPI cumplidos."
+        )
+
+    lineas.append("")
+
+    lineas.append(
+        "NOTA:"
+    )
+
+    lineas.append(
+        "KPI-02 se interpreta frente a una "
+        "referencia operativa del 15%; "
+        "no se contabiliza automáticamente "
+        "como KPI aprobado o reprobado."
+    )
+
+    lineas.append("")
+
+    lineas.append(
+        "=" * 72
+    )
+
+    ruta.write_text(
+        "\n".join(lineas),
+        encoding="utf-8"
+    )
+
+    print(
+        f"\nInforme resumido guardado en:\n"
+        f"{ruta.resolve()}"
+    )
+
+
+# ============================================================
+# 13. FUNCIÓN PRINCIPAL
 # ============================================================
 
 def main():
@@ -284,6 +1254,7 @@ def main():
     print("=" * 68)
     print("RED SALUD INTEGRAL CARAZO")
     print("MODELO PREDICTIVO V3 - RANDOM FOREST")
+    print("EVALUACIÓN DE 10 KPI")
     print("=" * 68)
 
     # --------------------------------------------------------
@@ -331,6 +1302,7 @@ def main():
             f"Base conectada: {base}"
         )
 
+        # Dataset analítico
         df = pd.read_sql_query(
 
             text("""
@@ -341,8 +1313,46 @@ def main():
             con
         )
 
+        # ----------------------------------------------------
+        # Obtener cantidad original de registros evaluados
+        # para KPI-01.
+        # ----------------------------------------------------
+
+        try:
+
+            registros_evaluados = int(
+                con.execute(
+                    text("""
+                        SELECT COUNT(*)
+                        FROM dbo.raw_cita
+                    """)
+                ).scalar_one()
+            )
+
+        except Exception:
+
+            print(
+                "\nAVISO: No fue posible consultar "
+                "dbo.raw_cita."
+            )
+
+            print(
+                "KPI-01 utilizará temporalmente "
+                "el total del dataset predictivo."
+            )
+
+            registros_evaluados = int(
+                len(df)
+            )
+
     print(
-        f"Registros cargados: {len(df):,}"
+        f"\nRegistros cargados en dataset predictivo: "
+        f"{len(df):,}"
+    )
+
+    print(
+        f"Registros evaluados originalmente: "
+        f"{registros_evaluados:,}"
     )
 
     # --------------------------------------------------------
@@ -374,7 +1384,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 4: Verificar ID de citas
+    # PASO 4: Verificar identificadores
     # --------------------------------------------------------
 
     if (
@@ -413,25 +1423,98 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 6: Preparar variable objetivo
+    # PASO 6:
+    # Guardar información para KPI-01 y KPI-02
+    # ANTES de dividir entrenamiento / prueba.
     # --------------------------------------------------------
 
-    df = df.loc[
+    mascara_resultado = (
         df[OBJETIVO].isin(
             [0, 1]
         )
-    ].copy()
+    )
 
-    df[OBJETIVO] = df[
-        OBJETIVO
-    ].astype(int)
+    df_resultado_conocido = (
+        df.loc[
+            mascara_resultado
+        ]
+        .copy()
+    )
+
+    # Para este código, consideramos validados los registros
+    # que llegaron al dataset analítico y poseen resultado
+    # conocido.
+    #
+    # Si 02_calidad.sql posee una bandera específica como
+    # es_valido = 1, posteriormente podemos sustituir este
+    # cálculo por esa bandera.
+    registros_validados = int(
+        len(
+            df_resultado_conocido
+        )
+    )
+
+    citas_validadas_resultado_conocido = int(
+        len(
+            df_resultado_conocido
+        )
+    )
+
+    citas_validadas_sin_asistencia = int(
+        (
+            df_resultado_conocido[
+                OBJETIVO
+            ] == 1
+        ).sum()
+    )
+
+    print(
+        "\nInformación para KPI-01 y KPI-02:"
+    )
+
+    print(
+        f"Registros evaluados: "
+        f"{registros_evaluados:,}"
+    )
+
+    print(
+        f"Registros validados: "
+        f"{registros_validados:,}"
+    )
+
+    print(
+        f"Citas validadas con resultado conocido: "
+        f"{citas_validadas_resultado_conocido:,}"
+    )
+
+    print(
+        f"Citas validadas sin asistencia: "
+        f"{citas_validadas_sin_asistencia:,}"
+    )
+
+    # --------------------------------------------------------
+    # PASO 7: Preparar variable objetivo
+    # --------------------------------------------------------
+
+    df = (
+        df.loc[
+            mascara_resultado
+        ]
+        .copy()
+    )
+
+    df[OBJETIVO] = (
+        df[OBJETIVO]
+        .astype(int)
+    )
 
     print(
         "\nDistribución de la variable objetivo:"
     )
 
     print(
-        df[OBJETIVO].value_counts()
+        df[OBJETIVO]
+        .value_counts()
     )
 
     print(
@@ -440,7 +1523,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 7: Preparar variables numéricas
+    # PASO 8: Preparar variables numéricas
     # --------------------------------------------------------
 
     for columna in NUM:
@@ -451,28 +1534,23 @@ def main():
         )
 
     # --------------------------------------------------------
-    # PASO 8: Preparar mes como variable categórica
+    # PASO 9: Preparar mes como categórica
     # --------------------------------------------------------
 
-    # Aunque mes esté almacenado como entero
-    # en SQL Server, para el modelo se considera
-    # una variable categórica.
-
-    df["mes"] = df[
-        "mes"
-    ].astype(str)
+    df["mes"] = (
+        df["mes"]
+        .astype(str)
+    )
 
     # --------------------------------------------------------
-    # PASO 9: División cronológica
+    # PASO 10: División cronológica
     # --------------------------------------------------------
 
     print(
         "\nDividiendo dataset cronológicamente..."
     )
 
-    # Entrenamiento:
-    # Enero - Abril 2026
-
+    # Entrenamiento: enero - abril
     train = df.loc[
         df["fecha_cita"].ge(
             "2026-01-01"
@@ -483,9 +1561,7 @@ def main():
         )
     ].copy()
 
-    # Validación:
-    # Mayo 2026
-
+    # Validación: mayo
     val = df.loc[
         df["fecha_cita"].ge(
             "2026-05-01"
@@ -496,9 +1572,7 @@ def main():
         )
     ].copy()
 
-    # Prueba:
-    # Junio 2026
-
+    # Prueba final: junio
     test = df.loc[
         df["fecha_cita"].ge(
             "2026-06-01"
@@ -510,7 +1584,7 @@ def main():
     ].copy()
 
     # --------------------------------------------------------
-    # PASO 10: Verificar conjuntos
+    # PASO 11: Verificar conjuntos
     # --------------------------------------------------------
 
     for nombre, parte in (
@@ -551,13 +1625,14 @@ def main():
         )
 
     # --------------------------------------------------------
-    # PASO 11: Pipeline para variables numéricas
+    # PASO 12: Pipeline numérico
     # --------------------------------------------------------
 
     numericas = Pipeline([
 
         (
             "imputer",
+
             SimpleImputer(
                 strategy="median"
             )
@@ -566,13 +1641,14 @@ def main():
     ])
 
     # --------------------------------------------------------
-    # PASO 12: Pipeline para variables categóricas
+    # PASO 13: Pipeline categórico
     # --------------------------------------------------------
 
     categoricas = Pipeline([
 
         (
             "imputer",
+
             SimpleImputer(
                 strategy="most_frequent"
             )
@@ -580,6 +1656,7 @@ def main():
 
         (
             "onehot",
+
             OneHotEncoder(
                 handle_unknown="ignore"
             )
@@ -588,7 +1665,7 @@ def main():
     ])
 
     # --------------------------------------------------------
-    # PASO 13: Integrar preparación de variables
+    # PASO 14: Integrar preparación
     # --------------------------------------------------------
 
     preparar = ColumnTransformer([
@@ -608,13 +1685,8 @@ def main():
     ])
 
     # --------------------------------------------------------
-    # PASO 14: Crear Random Forest
+    # PASO 15: Crear Random Forest
     # --------------------------------------------------------
-
-    # Los hiperparámetros fueron seleccionados
-    # utilizando el conjunto de validación de mayo.
-    #
-    # Junio se mantiene como conjunto de prueba final.
 
     modelo = Pipeline([
 
@@ -628,24 +1700,16 @@ def main():
 
             RandomForestClassifier(
 
-                # Cantidad de árboles del bosque
                 n_estimators=300,
 
-                # Profundidad máxima de cada árbol
                 max_depth=4,
 
-                # Número mínimo de registros
-                # permitido en una hoja
                 min_samples_leaf=10,
 
-                # Cantidad de variables evaluadas
-                # en cada división
                 max_features="sqrt",
 
-                # Permite reproducibilidad
                 random_state=42,
 
-                # Utilizar todos los núcleos disponibles
                 n_jobs=-1,
             )
         ),
@@ -653,7 +1717,7 @@ def main():
     ])
 
     # --------------------------------------------------------
-    # PASO 15: Entrenar modelo
+    # PASO 16: Entrenar
     # --------------------------------------------------------
 
     print(
@@ -669,9 +1733,9 @@ def main():
         "Entrenamiento completado."
     )
 
-    # ========================================================
-    # PASO 16: GENERAR UN ÁRBOL DEL RANDOM FOREST
-    # ========================================================
+    # --------------------------------------------------------
+    # PASO 17: Generar árbol
+    # --------------------------------------------------------
 
     generar_arbol_visual(
         modelo,
@@ -679,12 +1743,15 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 17: Evaluación en validación
+    # PASO 18: Validación
     # --------------------------------------------------------
 
-    prob_val = modelo.predict_proba(
-        val[FEATURES]
-    )[:, 1]
+    prob_val = (
+        modelo
+        .predict_proba(
+            val[FEATURES]
+        )[:, 1]
+    )
 
     met_val = evaluar(
         val[OBJETIVO],
@@ -705,12 +1772,15 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 18: Predicción sobre conjunto de prueba
+    # PASO 19: Prueba final
     # --------------------------------------------------------
 
-    prob_test = modelo.predict_proba(
-        test[FEATURES]
-    )[:, 1]
+    prob_test = (
+        modelo
+        .predict_proba(
+            test[FEATURES]
+        )[:, 1]
+    )
 
     pred_test = (
         prob_test >= UMBRAL
@@ -723,7 +1793,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 19: Baseline
+    # PASO 20: Baseline
     # --------------------------------------------------------
 
     base_accuracy = round(
@@ -739,7 +1809,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 20: Agregar información del modelo
+    # PASO 21: Información adicional
     # --------------------------------------------------------
 
     met_test.update({
@@ -771,7 +1841,7 @@ def main():
     })
 
     # --------------------------------------------------------
-    # PASO 21: Mostrar resultados finales
+    # PASO 22: Mostrar resultado final
     # --------------------------------------------------------
 
     print(
@@ -786,27 +1856,87 @@ def main():
         )
     )
 
-    if met_test[
-        "intervalo_solicitado_80_85_pct"
-    ]:
+    # --------------------------------------------------------
+    # PASO 23: CALCULAR LOS 10 KPI
+    # --------------------------------------------------------
 
-        print(
-            "\nOK: el Accuracy final "
-            "está dentro del intervalo 80-85%."
-        )
+    df_kpis = calcular_kpis(
 
-    else:
+        registros_evaluados=
+            registros_evaluados,
 
-        print(
-            "\nAVISO: el Accuracy final "
-            "quedó fuera de 80-85%. "
-            "No se alterarán etiquetas "
-            "ni predicciones para forzar "
-            "la cifra."
-        )
+        registros_validados=
+            registros_validados,
+
+        citas_validadas_sin_asistencia=
+            citas_validadas_sin_asistencia,
+
+        citas_validadas_resultado_conocido=
+            citas_validadas_resultado_conocido,
+
+        metricas=
+            met_test,
+
+        baseline_accuracy=
+            base_accuracy
+    )
 
     # --------------------------------------------------------
-    # PASO 22: Preparar predicciones
+    # PASO 24: Mostrar KPI
+    # --------------------------------------------------------
+
+    cumplen = mostrar_kpis(
+        df_kpis
+    )
+
+    # --------------------------------------------------------
+    # PASO 25: Guardar tabla de KPI
+    # --------------------------------------------------------
+
+    ruta_kpis = (
+        salida
+        / "kpis_random_forest_v3.csv"
+    )
+
+    df_kpis.to_csv(
+        ruta_kpis,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print(
+        f"\nTabla de KPI guardada en:\n"
+        f"{ruta_kpis.resolve()}"
+    )
+
+    # --------------------------------------------------------
+    # PASO 26: Generar gráficos
+    # --------------------------------------------------------
+
+    generar_grafico_kpis(
+        df_kpis,
+        salida
+    )
+
+    generar_matriz_confusion(
+        test[OBJETIVO],
+        pred_test,
+        salida
+    )
+
+    generar_curva_roc(
+        test[OBJETIVO],
+        prob_test,
+        salida
+    )
+
+    generar_importancia_variables(
+        modelo,
+        salida
+    )
+
+    # --------------------------------------------------------
+    # PASO 27: Preparar predicciones
     # --------------------------------------------------------
 
     res = test[
@@ -840,7 +1970,7 @@ def main():
     ] = NOMBRE_MODELO
 
     # --------------------------------------------------------
-    # PASO 23: Guardar resultados en SQL Server
+    # PASO 28: Guardar predicciones SQL Server
     # --------------------------------------------------------
 
     print(
@@ -849,9 +1979,6 @@ def main():
     )
 
     with engine.begin() as con:
-
-        # Eliminar resultados anteriores
-        # del mismo modelo y conjunto.
 
         con.execute(
 
@@ -867,8 +1994,6 @@ def main():
                     NOMBRE_MODELO
             },
         )
-
-        # Insertar las predicciones nuevas
 
         res.to_sql(
 
@@ -886,7 +2011,7 @@ def main():
         )
 
     # --------------------------------------------------------
-    # PASO 24: Guardar predicciones como CSV
+    # PASO 29: Guardar predicciones CSV
     # --------------------------------------------------------
 
     ruta_predicciones = (
@@ -895,16 +2020,13 @@ def main():
     )
 
     res.to_csv(
-
         ruta_predicciones,
-
         index=False,
-
-        encoding="utf-8-sig",
+        encoding="utf-8-sig"
     )
 
     # --------------------------------------------------------
-    # PASO 25: Guardar métricas como JSON
+    # PASO 30: Guardar métricas JSON
     # --------------------------------------------------------
 
     ruta_metricas = (
@@ -922,6 +2044,11 @@ def main():
 
                 "prueba":
                     met_test,
+
+                "kpi":
+                    df_kpis.to_dict(
+                        orient="records"
+                    ),
             },
 
             indent=2,
@@ -933,7 +2060,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # PASO 26: Guardar modelo entrenado
+    # PASO 31: Guardar modelo
     # --------------------------------------------------------
 
     ruta_modelo = (
@@ -952,14 +2079,43 @@ def main():
 
             "features":
                 FEATURES,
+
+            "kpis":
+                df_kpis.to_dict(
+                    orient="records"
+                ),
         },
 
         ruta_modelo,
     )
 
     # --------------------------------------------------------
-    # PASO 27: Resultado final
+    # PASO 32: Generar informe resumido
     # --------------------------------------------------------
+
+    generar_informe(
+
+        salida,
+
+        df_kpis,
+
+        met_test,
+
+        registros_evaluados,
+
+        registros_validados,
+
+        cumplen
+    )
+
+    # --------------------------------------------------------
+    # PASO 33: Resultado final
+    # --------------------------------------------------------
+
+    print("\n")
+    print("=" * 68)
+    print("PROCESO COMPLETADO")
+    print("=" * 68)
 
     print(
         "\nPredicciones guardadas en "
@@ -987,11 +2143,35 @@ def main():
     )
 
     print(
+        "- kpis_random_forest_v3.csv"
+    )
+
+    print(
         "- modelo_random_forest_v3.joblib"
     )
 
     print(
         "- arbol_random_forest_v3.png"
+    )
+
+    print(
+        "- matriz_confusion_random_forest_v3.png"
+    )
+
+    print(
+        "- curva_roc_random_forest_v3.png"
+    )
+
+    print(
+        "- importancia_variables_random_forest_v3.png"
+    )
+
+    print(
+        "- grafico_kpis_random_forest_v3.png"
+    )
+
+    print(
+        "- informe_resumido_random_forest_v3.txt"
     )
 
     print("=" * 68)
@@ -1002,4 +2182,5 @@ def main():
 # ============================================================
 
 if __name__ == "__main__":
+
     main()
