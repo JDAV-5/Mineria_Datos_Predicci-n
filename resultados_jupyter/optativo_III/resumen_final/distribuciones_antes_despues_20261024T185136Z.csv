@@ -1,0 +1,61 @@
+﻿Valor,Cantidad,Variable,Etapa,Porcentaje
+0,6263,no_asistio,ORIGINAL,62.13
+1,3737,no_asistio,ORIGINAL,37.07
+SIN DATO,80,no_asistio,ORIGINAL,0.79
+0,5669,no_asistio,CONJUNTO_APTO,62.46
+1,3407,no_asistio,CONJUNTO_APTO,37.54
+JINOTEPE,2970,centro_salud,ORIGINAL,29.46
+DIRIAMBA,2790,centro_salud,ORIGINAL,27.68
+SAN MARCOS,2426,centro_salud,ORIGINAL,24.07
+DOLORES,1661,centro_salud,ORIGINAL,16.48
+SIN DATO,120,centro_salud,ORIGINAL,1.19
+diriamba,27,centro_salud,ORIGINAL,0.27
+jinotepe,24,centro_salud,ORIGINAL,0.24
+san marcos,17,centro_salud,ORIGINAL,0.17
+dolores,12,centro_salud,ORIGINAL,0.12
+Jinotepe,12,centro_salud,ORIGINAL,0.12
+Diriamba,9,centro_salud,ORIGINAL,0.09
+San Marcos,8,centro_salud,ORIGINAL,0.08
+Dolores,4,centro_salud,ORIGINAL,0.04
+JINOTEPE,2729,centro_salud,CONJUNTO_APTO,30.07
+DIRIAMBA,2575,centro_salud,CONJUNTO_APTO,28.37
+SAN MARCOS,2257,centro_salud,CONJUNTO_APTO,24.87
+DOLORES,1515,centro_salud,CONJUNTO_APTO,16.69
+MEDICINA GENERAL,3295,especialidad,ORIGINAL,32.69
+LABORATORIO,2066,especialidad,ORIGINAL,20.5
+GINECOLOGÍA,1719,especialidad,ORIGINAL,17.05
+PEDIATRÍA,1504,especialidad,ORIGINAL,14.92
+CARDIOLOGÍA,1296,especialidad,ORIGINAL,12.86
+SIN DATO,120,especialidad,ORIGINAL,1.19
+medicina general,37,especialidad,ORIGINAL,0.37
+pediatría,16,especialidad,ORIGINAL,0.16
+laboratorio,13,especialidad,ORIGINAL,0.13
+ginecología,9,especialidad,ORIGINAL,0.09
+cardiología,5,especialidad,ORIGINAL,0.05
+MEDICINA GENERAL,3062,especialidad,CONJUNTO_APTO,33.74
+LABORATORIO,1891,especialidad,CONJUNTO_APTO,20.84
+GINECOLOGÍA,1545,especialidad,CONJUNTO_APTO,17.02
+PEDIATRÍA,1376,especialidad,CONJUNTO_APTO,15.16
+CARDIOLOGÍA,1202,especialidad,CONJUNTO_APTO,13.24
+CALL CENTER,3431,canal_agendamiento,ORIGINAL,34.04
+WEB,2463,canal_agendamiento,ORIGINAL,24.43
+VENTANILLA,2460,canal_agendamiento,ORIGINAL,24.4
+REFERENCIA MÉDICA,1526,canal_agendamiento,ORIGINAL,15.14
+SIN DATO,120,canal_agendamiento,ORIGINAL,1.19
+call center,32,canal_agendamiento,ORIGINAL,0.32
+web,20,canal_agendamiento,ORIGINAL,0.2
+ventanilla,18,canal_agendamiento,ORIGINAL,0.18
+referencia médica,10,canal_agendamiento,ORIGINAL,0.1
+CALL CENTER,3161,canal_agendamiento,CONJUNTO_APTO,34.83
+WEB,2269,canal_agendamiento,CONJUNTO_APTO,25.0
+VENTANILLA,2251,canal_agendamiento,CONJUNTO_APTO,24.8
+REFERENCIA MÉDICA,1395,canal_agendamiento,CONJUNTO_APTO,15.37
+30-44,3526,grupo_edad,ORIGINAL,34.98
+45-59,2501,grupo_edad,ORIGINAL,24.81
+18-29,2314,grupo_edad,ORIGINAL,22.96
+60+,1619,grupo_edad,ORIGINAL,16.06
+SIN DATO,120,grupo_edad,ORIGINAL,1.19
+30-44,3235,grupo_edad,CONJUNTO_APTO,35.64
+45-59,2258,grupo_edad,CONJUNTO_APTO,24.88
+18-29,2113,grupo_edad,CONJUNTO_APTO,23.28
+60+,1470,grupo_edad,CONJUNTO_APTO,16.2

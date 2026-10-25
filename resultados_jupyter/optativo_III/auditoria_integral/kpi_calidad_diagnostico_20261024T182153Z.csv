@@ -1,0 +1,4 @@
+﻿Código,KPI,Resultado (%),Meta,Estado
+IND-01,Tasa de integridad de registros de citas,90.87,>98%,NO CUMPLE
+IND-04,Porcentaje de filas duplicadas,0.47,0%,NO CUMPLE
+IND-05,Tasa de duplicidad de identificadores de cita,0.79,0%,NO CUMPLE

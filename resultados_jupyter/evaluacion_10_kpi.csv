@@ -1,0 +1,11 @@
+﻿Código,KPI,Resultado,Meta,Estado
+KPI-01,Porcentaje de registros validados,89.25%,≥ 90%,NO CUMPLE
+KPI-02,Tasa de inasistencia,37.58%,Referencia: 15%,REFERENCIA
+KPI-03,Detección de inasistencia (Recall),71.76%,≥ 70%,CUMPLE
+KPI-04,Precisión,80.16%,≥ 80%,CUMPLE
+KPI-05,Exactitud,83.15%,≥ 80%,CUMPLE
+KPI-06,Tasa de falsas alarmas,10.27%,≤ 20%,CUMPLE
+KPI-07,Inasistencias no detectadas,28.24%,≤ 30%,CUMPLE
+KPI-08,F2-Score,73.29%,≥ 75%,NO CUMPLE
+KPI-09,ROC-AUC,0.8886,≥ 0.80,CUMPLE
+KPI-10,Mejora frente a referencia básica,+19.78 pp,> 0 pp,CUMPLE

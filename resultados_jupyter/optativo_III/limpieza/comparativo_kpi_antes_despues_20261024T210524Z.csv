@@ -1,0 +1,4 @@
+﻿Codigo,KPI,Antes,Despues,Meta,Cumple_despues
+IND-01,Tasa de integridad,90.87,100.0,>98%,SI
+IND-02,Porcentaje de categorías no normalizadas,2.71,0.0,<1%,SI
+IND-04,Porcentaje de filas duplicadas,0.47,0.0,0%,SI

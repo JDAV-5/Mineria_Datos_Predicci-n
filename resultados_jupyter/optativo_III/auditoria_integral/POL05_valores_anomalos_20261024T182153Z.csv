@@ -1,0 +1,4 @@
+﻿id_raw,id_cita,Politica,Tipo_hallazgo,Campo,Valor_original,Regla_incumplida,Tratamiento_propuesto,Estado,Decision_final
+7722,RSV2-007722,POL-05,VALOR_NUMERICO_INVALIDO,espera_dias,-1.0,Debe ser un entero mayor o igual a cero,Verificar el dato antes de corregirlo,DETECTADO,PENDIENTE
+9029,RSV2-009029,POL-05,VALOR_NUMERICO_INVALIDO,recordatorios_enviados,-1.0,Debe ser un entero mayor o igual a cero,Verificar el dato antes de corregirlo,DETECTADO,PENDIENTE
+1977,RSV2-001977,POL-05,VALOR_NUMERICO_INVALIDO,citas_previas_perdidas,-1.0,Debe ser un entero mayor o igual a cero,Verificar el dato antes de corregirlo,DETECTADO,PENDIENTE

@@ -1,0 +1,8 @@
+﻿Comprobacion,Cantidad
+Registros originales,10080
+IDs distintos en origen,10000
+Registros aptos,9076
+Registros predictivos,8996
+IDs presentes en ambos conjuntos,8996
+IDs solo en conjunto apto,80
+IDs solo en predictivo,0

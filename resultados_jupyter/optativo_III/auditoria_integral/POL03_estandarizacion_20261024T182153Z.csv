@@ -1,0 +1,274 @@
+﻿id_raw,id_cita,Politica,Tipo_hallazgo,Campo,Valor_original,Regla_incumplida,Tratamiento_propuesto,Estado,Decision_final
+102,RSV2-000102,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+258,RSV2-000258,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+379,RSV2-000379,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+538,RSV2-000538,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+739,RSV2-000739,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+846,RSV2-000846,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+945,RSV2-000945,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1174,RSV2-001174,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1184,RSV2-001184,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1254,RSV2-001254,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1302,RSV2-001302,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1412,RSV2-001412,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1499,RSV2-001499,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1619,RSV2-001619,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1674,RSV2-001674,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1725,RSV2-001725,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1767,RSV2-001767,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1769,RSV2-001769,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1776,RSV2-001776,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1787,RSV2-001787,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1905,RSV2-001905,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2000,RSV2-002000,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2216,RSV2-002216,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2264,RSV2-002264,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2323,RSV2-002323,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2422,RSV2-002422,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2665,RSV2-002665,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2712,RSV2-002712,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2767,RSV2-002767,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2812,RSV2-002812,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2960,RSV2-002960,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2981,RSV2-002981,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3160,RSV2-003160,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3332,RSV2-003332,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3371,RSV2-003371,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3462,RSV2-003462,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3507,RSV2-003507,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3581,RSV2-003581,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3737,RSV2-003737,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4035,RSV2-004035,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4062,RSV2-004062,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4141,RSV2-004141,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4402,RSV2-004402,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4691,RSV2-004691,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4919,RSV2-004919,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5182,RSV2-005182,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5185,RSV2-005185,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5437,RSV2-005437,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5606,RSV2-005606,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5916,RSV2-005916,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6029,RSV2-006029,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6148,RSV2-006148,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6215,RSV2-006215,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6236,RSV2-006236,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6355,RSV2-006355,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6518,RSV2-006518,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6821,RSV2-006821,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6827,RSV2-006827,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6840,RSV2-006840,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7405,RSV2-007405,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7428,RSV2-007428,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7501,RSV2-007501,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7732,RSV2-007732,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7808,RSV2-007808,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7868,RSV2-007868,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7969,RSV2-007969,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8022,RSV2-008022,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8055,RSV2-008055,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8108,RSV2-008108,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8147,RSV2-008147,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8173,RSV2-008173,POL-03,FORMATO_NO_ESTANDAR,centro_salud,jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8213,RSV2-008213,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8221,RSV2-008221,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8695,RSV2-008695,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8780,RSV2-008780,POL-03,FORMATO_NO_ESTANDAR,centro_salud,dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9094,RSV2-009094,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9155,RSV2-009155,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9233,RSV2-009233,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9355,RSV2-009355,POL-03,FORMATO_NO_ESTANDAR,centro_salud,diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9763,RSV2-009763,POL-03,FORMATO_NO_ESTANDAR,centro_salud,san marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10048,RSV2-006213,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10049,RSV2-004458,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10050,RSV2-001632,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10051,RSV2-002626,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10052,RSV2-004862,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10053,RSV2-000856,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10054,RSV2-005392,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10055,RSV2-000168,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10056,RSV2-000853,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10057,RSV2-009678,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10058,RSV2-005899,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10059,RSV2-007840,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10060,RSV2-007671,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10061,RSV2-009205,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10062,RSV2-005772,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10063,RSV2-008728,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10064,RSV2-006258,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10065,RSV2-001284,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10066,RSV2-008585,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10067,RSV2-003162,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10068,RSV2-004309,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10069,RSV2-007329,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10070,RSV2-003824,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Dolores,Formato esperado: DOLORES,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10071,RSV2-009392,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10072,RSV2-006508,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10073,RSV2-000663,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10074,RSV2-006980,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10075,RSV2-001470,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10076,RSV2-002921,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Jinotepe,Formato esperado: JINOTEPE,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10077,RSV2-001340,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10078,RSV2-003272,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10079,RSV2-001355,POL-03,FORMATO_NO_ESTANDAR,centro_salud,Diriamba,Formato esperado: DIRIAMBA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+10080,RSV2-007172,POL-03,FORMATO_NO_ESTANDAR,centro_salud,San Marcos,Formato esperado: SAN MARCOS,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+200,RSV2-000200,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+246,RSV2-000246,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+260,RSV2-000260,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+393,RSV2-000393,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+729,RSV2-000729,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1053,RSV2-001053,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1148,RSV2-001148,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1259,RSV2-001259,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1446,RSV2-001446,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1447,RSV2-001447,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1675,RSV2-001675,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1817,RSV2-001817,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2032,RSV2-002032,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2282,RSV2-002282,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2687,RSV2-002687,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2745,RSV2-002745,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2918,RSV2-002918,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2969,RSV2-002969,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2995,RSV2-002995,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3051,RSV2-003051,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3186,RSV2-003186,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3372,RSV2-003372,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3387,RSV2-003387,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3523,RSV2-003523,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3585,RSV2-003585,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3590,RSV2-003590,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3708,RSV2-003708,POL-03,FORMATO_NO_ESTANDAR,especialidad,cardiología,Formato esperado: CARDIOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3748,RSV2-003748,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3853,RSV2-003853,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3927,RSV2-003927,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4102,RSV2-004102,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4414,RSV2-004414,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4501,RSV2-004501,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4508,RSV2-004508,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5100,RSV2-005100,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5171,RSV2-005171,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5174,RSV2-005174,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5197,RSV2-005197,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5229,RSV2-005229,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5246,RSV2-005246,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5278,RSV2-005278,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5596,RSV2-005596,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5670,RSV2-005670,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5686,RSV2-005686,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5845,RSV2-005845,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5849,RSV2-005849,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5923,RSV2-005923,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6068,RSV2-006068,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6078,RSV2-006078,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6241,RSV2-006241,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6336,RSV2-006336,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6436,RSV2-006436,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6439,RSV2-006439,POL-03,FORMATO_NO_ESTANDAR,especialidad,cardiología,Formato esperado: CARDIOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6528,RSV2-006528,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6558,RSV2-006558,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6690,RSV2-006690,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6725,RSV2-006725,POL-03,FORMATO_NO_ESTANDAR,especialidad,ginecología,Formato esperado: GINECOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6726,RSV2-006726,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6816,RSV2-006816,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7013,RSV2-007013,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7228,RSV2-007228,POL-03,FORMATO_NO_ESTANDAR,especialidad,cardiología,Formato esperado: CARDIOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7492,RSV2-007492,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7512,RSV2-007512,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7669,RSV2-007669,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7716,RSV2-007716,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7753,RSV2-007753,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7981,RSV2-007981,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8243,RSV2-008243,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8370,RSV2-008370,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8429,RSV2-008429,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8468,RSV2-008468,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8493,RSV2-008493,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8516,RSV2-008516,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8598,RSV2-008598,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8618,RSV2-008618,POL-03,FORMATO_NO_ESTANDAR,especialidad,cardiología,Formato esperado: CARDIOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8712,RSV2-008712,POL-03,FORMATO_NO_ESTANDAR,especialidad,laboratorio,Formato esperado: LABORATORIO,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9080,RSV2-009080,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9418,RSV2-009418,POL-03,FORMATO_NO_ESTANDAR,especialidad,medicina general,Formato esperado: MEDICINA GENERAL,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9537,RSV2-009537,POL-03,FORMATO_NO_ESTANDAR,especialidad,pediatría,Formato esperado: PEDIATRÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9569,RSV2-009569,POL-03,FORMATO_NO_ESTANDAR,especialidad,cardiología,Formato esperado: CARDIOLOGÍA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+135,RSV2-000135,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+182,RSV2-000182,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+293,RSV2-000293,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+358,RSV2-000358,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+395,RSV2-000395,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+424,RSV2-000424,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+722,RSV2-000722,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+725,RSV2-000725,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+858,RSV2-000858,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1220,RSV2-001220,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1255,RSV2-001255,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1475,RSV2-001475,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1491,RSV2-001491,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1618,RSV2-001618,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+1785,RSV2-001785,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2008,RSV2-002008,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2227,RSV2-002227,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2377,RSV2-002377,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2393,RSV2-002393,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2439,RSV2-002439,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2460,RSV2-002460,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2563,RSV2-002563,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2624,RSV2-002624,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2662,RSV2-002662,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2771,RSV2-002771,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2781,RSV2-002781,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2786,RSV2-002786,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+2799,RSV2-002799,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3201,RSV2-003201,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3242,RSV2-003242,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3345,RSV2-003345,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3436,RSV2-003436,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3479,RSV2-003479,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3513,RSV2-003513,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3592,RSV2-003592,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3609,RSV2-003609,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3673,RSV2-003673,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3742,RSV2-003742,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3819,RSV2-003819,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3894,RSV2-003894,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3899,RSV2-003899,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+3986,RSV2-003986,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4265,RSV2-004265,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4428,RSV2-004428,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4506,RSV2-004506,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4604,RSV2-004604,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4661,RSV2-004661,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+4762,RSV2-004762,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5002,RSV2-005002,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5099,RSV2-005099,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5104,RSV2-005104,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5266,RSV2-005266,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5536,RSV2-005536,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5551,RSV2-005551,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5554,RSV2-005554,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5586,RSV2-005586,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+5838,RSV2-005838,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6127,RSV2-006127,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6318,RSV2-006318,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6597,RSV2-006597,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6701,RSV2-006701,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+6828,RSV2-006828,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7002,RSV2-007002,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7017,RSV2-007017,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7081,RSV2-007081,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7553,RSV2-007553,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+7888,RSV2-007888,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8216,RSV2-008216,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8292,RSV2-008292,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+8442,RSV2-008442,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9059,RSV2-009059,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9140,RSV2-009140,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,referencia médica,Formato esperado: REFERENCIA MÉDICA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9224,RSV2-009224,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9293,RSV2-009293,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9361,RSV2-009361,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9438,RSV2-009438,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,ventanilla,Formato esperado: VENTANILLA,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9460,RSV2-009460,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9484,RSV2-009484,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9502,RSV2-009502,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,call center,Formato esperado: CALL CENTER,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE
+9697,RSV2-009697,POL-03,FORMATO_NO_ESTANDAR,canal_agendamiento,web,Formato esperado: WEB,Normalizar formato tras verificar la equivalencia,DETECTADO,PENDIENTE

@@ -1,0 +1,2 @@
+﻿fecha_ejecucion_utc,tabla_origen,tabla_predictiva,periodo_solicitado,registros_originales,registros_predictivos,registros_correspondientes
+2026-10-16T21:12:00.036313+00:00,dbo.raw_cita,dbo.dm_dataset_prediccion,Todos,10080,8996,8996

@@ -1,0 +1,2 @@
+﻿fecha_utc,anio_solicitado,tabla_origen,registros,entrenamiento,validacion,prueba,estado,hallazgos
+2026-10-16T21:28:11.137422+00:00,2026,dbo.dm_dataset_prediccion,8996,5948,1511,1537,APTO,

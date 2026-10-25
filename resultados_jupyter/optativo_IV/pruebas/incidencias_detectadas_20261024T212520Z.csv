@@ -1,0 +1,8 @@
+﻿id_raw,id_cita,Politica,Tipo_hallazgo,Campo,Valor_original,Regla,Estado,Numero_prueba,Caso
+10000002,PRUEBA-GOB-P02-I,POL-02,CAMPO_OBLIGATORIO_FALTANTE,centro_salud,<NULO>,Los campos requeridos deben contener información,INCUMPLE,2,Centro de salud vacío
+10000004,PRUEBA-GOB-P03-I,POL-03,FUERA_DE_CATALOGO,centro_salud,CENTRO NO REGISTRADO,Debe pertenecer al catálogo de referencia,INCUMPLE,4,Centro fuera de catálogo
+10000007,PRUEBA-GOB-P04-I,POL-04,IDENTIFICADOR_REPETIDO,id_cita,PRUEBA-GOB-P04-I,El identificador de cita debe ser único,INCUMPLE,6,Identificador duplicado
+10000008,PRUEBA-GOB-P04-I,POL-04,IDENTIFICADOR_REPETIDO,id_cita,PRUEBA-GOB-P04-I,El identificador de cita debe ser único,INCUMPLE,6,Identificador duplicado
+10000007,PRUEBA-GOB-P04-I,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,FILA COMPLETA,No deben existir filas idénticas,INCUMPLE,6,Identificador duplicado
+10000008,PRUEBA-GOB-P04-I,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,FILA COMPLETA,No deben existir filas idénticas,INCUMPLE,6,Identificador duplicado
+10000010,PRUEBA-GOB-P05-I,POL-05,VALOR_NUMERICO_INVALIDO,espera_dias,-5,Debe ser un número entero no negativo,INCUMPLE,8,Días de espera negativos

@@ -1,0 +1,6 @@
+﻿Codigo,Politica,Regla,Responsable,Estado,Observacion
+POL-01,Cierre obligatorio de citas,Consolidar el estado de asistencia en un máximo de 24 horas,Supervisores de admisión,NO EVALUABLE,No existe fecha de cierre para verificar el plazo
+POL-02,Completitud de registros,Todos los campos obligatorios deben contener información,Admisión y TI,POR EVALUAR,Verificar campos requeridos
+POL-03,Estandarización,Utilizar las categorías autorizadas del sistema,Jefaturas de servicio,POR EVALUAR,Los catálogos actuales son provisionales
+POL-04,Control de duplicidad,No permitir registros de citas duplicados,Líder de TI,POR EVALUAR,Verificar identificadores y registros repetidos
+POL-05,Control de valores anómalos,Las variables numéricas deben cumplir rangos lógicos válidos,TI,POR EVALUAR,Detectar valores negativos o inválidos

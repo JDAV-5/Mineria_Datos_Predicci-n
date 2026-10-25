@@ -1,0 +1,5 @@
+﻿Etapa,Actividad,Evidencia,Resultado,Estado
+PLANIFICAR,"Identificar problemas de completitud, duplicidad, estandarización y validez","EDA, auditoría integral y tres KPI iniciales",10080 registros evaluados,EJECUTADO
+HACER,"Normalizar formatos, separar registros no verificables y retirar copias adicionales",Bitácora de tratamientos y detalle de normalizaciones,273 normalizaciones; 80 copias excluidas; 924 registros en cuarentena,EJECUTADO EN COPIA
+VERIFICAR,Recalcular los tres KPI y comprobar la cobertura de registros,Comparativo de KPI antes y después,9076 registros aptos; cobertura 90.04%,EJECUTADO
+ACTUAR,Dar seguimiento a registros en cuarentena y formalizar controles para nuevas cargas,Plan de acciones pendientes por política,Seguimiento y aprobación institucional pendientes,PENDIENTE DE IMPLEMENTACIÓN

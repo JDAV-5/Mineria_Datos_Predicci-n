@@ -1,0 +1,5 @@
+﻿Etapa,Acción,Resultado
+PLANIFICAR,Identificar campo faltante,1 incumplimiento
+HACER,Completar registro de prueba,Corrección simulada
+VERIFICAR,Repetir POL-02,0 incumplimientos
+ACTUAR,Comprobar control preventivo,Prueba superada

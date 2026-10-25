@@ -1,0 +1,9 @@
+﻿Politica,Caso,Esperado,Obtenido,Resultado
+POL-02,Registro completo,ACEPTADO,ACEPTADO,SUPERADA
+POL-02,Centro de salud vacío,RECHAZADO,RECHAZADO,SUPERADA
+POL-03,Categoría válida,ACEPTADO,ACEPTADO,SUPERADA
+POL-03,Categoría desconocida,RECHAZADO,RECHAZADO,SUPERADA
+POL-04,Identificadores diferentes,ACEPTADO,ACEPTADO,SUPERADA
+POL-04,Identificador repetido,RECHAZADO,RECHAZADO,SUPERADA
+POL-05,Días de espera válidos,ACEPTADO,ACEPTADO,SUPERADA
+POL-05,Días de espera negativos,RECHAZADO,RECHAZADO,SUPERADA

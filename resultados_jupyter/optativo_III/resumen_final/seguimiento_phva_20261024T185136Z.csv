@@ -1,0 +1,5 @@
+﻿Politica,Problema,Registros_identificados,Tratamiento,Accion_pendiente
+POL-02,Campos obligatorios incompletos,920,Separación para revisión,Recuperar datos desde fuentes confiables o justificar la exclusión
+POL-03,Diferencias de formato,273,Normalización en copia de trabajo,Validar los catálogos provisionales con el responsable
+POL-04,Duplicidad de registros,80,Exclusión de copias idénticas adicionales,Verificar criterios de deduplicación y documentar su aprobación
+POL-05,Valores anómalos,3,Separación de registros con anomalías,Consultar los valores correctos en la fuente original

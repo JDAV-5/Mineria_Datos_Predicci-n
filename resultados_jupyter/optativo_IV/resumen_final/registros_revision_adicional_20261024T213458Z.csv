@@ -1,0 +1,2 @@
+﻿id_raw,id_cita,origen_dataset,lote_carga,fecha_ingesta,Total_incidencias,Politicas_incumplidas,Motivos,Campos_faltantes,Estado_final,Campos_normalizados,Politica_normalizacion,Condicion_auditoria,En_dataset_apto,Fuente_original,Version_depurada
+5361,RSV2-005361,ampliado,20260928T002744032220Z,2026-09-28 00:27:51.812419,0,NINGUNA,EDA_COSTO_REQUIERE_REVISION,,EN_CUARENTENA_PARA_REVISION,0,,SIN_HALLAZGOS,False,dbo.raw_cita,dataset_apto_20261024T210524Z.csv

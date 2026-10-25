@@ -1,0 +1,22 @@
+
+{
+  "centro_salud": [
+    "JINOTEPE",
+    "DIRIAMBA",
+    "SAN MARCOS",
+    "DOLORES"
+  ],
+  "especialidad": [
+    "MEDICINA GENERAL",
+    "LABORATORIO",
+    "GINECOLOGÍA",
+    "PEDIATRÍA",
+    "CARDIOLOGÍA"
+  ],
+  "canal_agendamiento": [
+    "CALL CENTER",
+    "WEB",
+    "VENTANILLA",
+    "REFERENCIA MÉDICA"
+  ]
+}

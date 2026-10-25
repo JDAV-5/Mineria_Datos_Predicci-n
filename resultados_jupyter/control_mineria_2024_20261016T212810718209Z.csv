@@ -1,0 +1,2 @@
+﻿fecha_utc,anio_solicitado,tabla_origen,registros,entrenamiento,validacion,prueba,estado,hallazgos
+2026-10-16T21:28:10.718334+00:00,2024,dbo.dm_dataset_prediccion,0,0,0,0,NO APTO,No existen registros predictivos para el año solicitado.

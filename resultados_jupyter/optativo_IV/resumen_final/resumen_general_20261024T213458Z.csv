@@ -1,0 +1,13 @@
+﻿Concepto,Cantidad
+Registros originales,10080
+Incidencias auditadas,1450
+Registros con hallazgos,1323
+Registros sin hallazgos,8757
+Registros aptos,9076
+Registros en cuarentena,924
+Copias excluidas,80
+Celdas normalizadas,273
+Aptos con hallazgos iniciales,320
+No aptos sin hallazgos de POL-02 a POL-05,1
+Pruebas superadas,8
+KPI cumplidos en conjunto apto,3

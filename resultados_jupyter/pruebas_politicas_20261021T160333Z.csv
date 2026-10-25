@@ -1,0 +1,9 @@
+﻿Política,Caso,Dato probado,Esperado,Detectado,Estado del validador,Resultado prueba
+POL-02,VÁLIDO,Todos los campos completos,0,0,SIN HALLAZGOS,SUPERADA
+POL-02,INVÁLIDO,Centro de salud vacío,1,1,CON HALLAZGOS,SUPERADA
+POL-03,VÁLIDO,Categorías del catálogo provisional,0,0,SIN HALLAZGOS - CATÁLOGO PROVISIONAL,SUPERADA
+POL-03,INVÁLIDO,Centro fuera del catálogo,1,1,CON HALLAZGOS,SUPERADA
+POL-04,VÁLIDO,Dos identificadores diferentes,0,0,SIN HALLAZGOS,SUPERADA
+POL-04,INVÁLIDO,Un grupo de identificadores repetidos,1,1,REQUIERE REVISIÓN,SUPERADA
+POL-05,VÁLIDO,Días de espera = 5,0,0,SIN HALLAZGOS,SUPERADA
+POL-05,INVÁLIDO,Días de espera = -5,1,1,CON HALLAZGOS,SUPERADA

@@ -1,0 +1,255 @@
+﻿id_raw,id_cita,Politica,Tipo_hallazgo,Campo,Valor_original,Regla_incumplida,Tratamiento_propuesto,Estado,Decision_final
+92,RSV2-000092,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000092,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+168,RSV2-000168,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000168,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+476,RSV2-000476,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000476,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+663,RSV2-000663,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000663,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+826,RSV2-000826,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000826,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+853,RSV2-000853,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000853,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+856,RSV2-000856,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000856,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1284,RSV2-001284,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001284,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1340,RSV2-001340,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001340,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1355,RSV2-001355,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001355,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1440,RSV2-001440,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001440,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1470,RSV2-001470,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001470,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1632,RSV2-001632,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001632,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1858,RSV2-001858,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001858,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1937,RSV2-001937,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001937,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1944,RSV2-001944,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001944,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+1990,RSV2-001990,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001990,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2022,RSV2-002022,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002022,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2068,RSV2-002068,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002068,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2126,RSV2-002126,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002126,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2172,RSV2-002172,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002172,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2190,RSV2-002190,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002190,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2215,RSV2-002215,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002215,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2346,RSV2-002346,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002346,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2626,RSV2-002626,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002626,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2921,RSV2-002921,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002921,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+2942,RSV2-002942,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002942,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3162,RSV2-003162,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003162,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3272,RSV2-003272,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003272,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3377,RSV2-003377,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003377,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3379,RSV2-003379,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003379,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3489,RSV2-003489,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003489,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3569,RSV2-003569,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003569,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3591,RSV2-003591,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003591,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3611,RSV2-003611,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003611,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+3824,RSV2-003824,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003824,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4195,RSV2-004195,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004195,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4264,RSV2-004264,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004264,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4309,RSV2-004309,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004309,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4444,RSV2-004444,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004444,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4458,RSV2-004458,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004458,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+4862,RSV2-004862,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004862,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5187,RSV2-005187,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005187,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5392,RSV2-005392,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005392,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5482,RSV2-005482,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005482,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5489,RSV2-005489,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005489,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5563,RSV2-005563,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005563,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5772,RSV2-005772,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005772,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+5899,RSV2-005899,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005899,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6111,RSV2-006111,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006111,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6213,RSV2-006213,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006213,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6258,RSV2-006258,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006258,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6424,RSV2-006424,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006424,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6508,RSV2-006508,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006508,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6601,RSV2-006601,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006601,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6963,RSV2-006963,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006963,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+6980,RSV2-006980,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006980,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7050,RSV2-007050,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007050,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7172,RSV2-007172,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007172,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7329,RSV2-007329,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007329,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7345,RSV2-007345,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007345,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7352,RSV2-007352,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007352,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7415,RSV2-007415,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007415,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7422,RSV2-007422,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007422,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7671,RSV2-007671,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007671,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7705,RSV2-007705,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007705,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7763,RSV2-007763,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007763,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7840,RSV2-007840,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007840,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+7932,RSV2-007932,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007932,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+8585,RSV2-008585,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-008585,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+8728,RSV2-008728,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-008728,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9076,RSV2-009076,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009076,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9087,RSV2-009087,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009087,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9091,RSV2-009091,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009091,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9205,RSV2-009205,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009205,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9392,RSV2-009392,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009392,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9476,RSV2-009476,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009476,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9678,RSV2-009678,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009678,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9771,RSV2-009771,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009771,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+9900,RSV2-009900,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009900,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10001,RSV2-002068,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002068,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10002,RSV2-003611,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003611,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10003,RSV2-002346,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002346,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10004,RSV2-001937,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001937,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10005,RSV2-001858,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001858,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10006,RSV2-007352,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007352,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10007,RSV2-002172,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002172,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10008,RSV2-007763,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007763,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10009,RSV2-009087,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009087,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10010,RSV2-005482,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005482,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10011,RSV2-007705,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007705,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10012,RSV2-002942,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002942,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10013,RSV2-000092,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000092,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10014,RSV2-004444,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004444,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10015,RSV2-006424,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006424,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10016,RSV2-006963,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006963,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10017,RSV2-002022,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002022,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10018,RSV2-006111,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006111,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10019,RSV2-001440,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001440,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10020,RSV2-002126,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002126,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10021,RSV2-009476,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009476,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10022,RSV2-009076,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009076,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10023,RSV2-007050,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007050,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10024,RSV2-001990,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001990,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10025,RSV2-003377,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003377,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10026,RSV2-005563,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005563,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10027,RSV2-001944,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001944,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10028,RSV2-006601,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006601,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10029,RSV2-003569,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003569,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10030,RSV2-007932,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007932,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10031,RSV2-002215,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002215,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10032,RSV2-000476,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000476,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10033,RSV2-002190,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002190,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10034,RSV2-003489,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003489,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10035,RSV2-004264,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004264,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10036,RSV2-007422,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007422,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10037,RSV2-005187,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005187,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10038,RSV2-003379,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003379,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10039,RSV2-009771,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009771,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10040,RSV2-004195,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004195,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10041,RSV2-003591,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003591,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10042,RSV2-000826,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000826,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10043,RSV2-007415,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007415,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10044,RSV2-007345,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007345,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10045,RSV2-005489,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005489,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10046,RSV2-009091,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009091,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10047,RSV2-009900,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009900,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10048,RSV2-006213,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006213,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10049,RSV2-004458,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004458,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10050,RSV2-001632,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001632,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10051,RSV2-002626,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002626,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10052,RSV2-004862,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004862,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10053,RSV2-000856,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000856,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10054,RSV2-005392,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005392,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10055,RSV2-000168,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000168,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10056,RSV2-000853,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000853,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10057,RSV2-009678,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009678,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10058,RSV2-005899,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005899,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10059,RSV2-007840,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007840,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10060,RSV2-007671,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007671,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10061,RSV2-009205,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009205,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10062,RSV2-005772,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-005772,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10063,RSV2-008728,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-008728,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10064,RSV2-006258,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006258,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10065,RSV2-001284,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001284,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10066,RSV2-008585,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-008585,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10067,RSV2-003162,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003162,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10068,RSV2-004309,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-004309,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10069,RSV2-007329,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007329,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10070,RSV2-003824,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003824,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10071,RSV2-009392,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-009392,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10072,RSV2-006508,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006508,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10073,RSV2-000663,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-000663,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10074,RSV2-006980,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-006980,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10075,RSV2-001470,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001470,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10076,RSV2-002921,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-002921,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10077,RSV2-001340,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001340,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10078,RSV2-003272,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-003272,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10079,RSV2-001355,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-001355,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+10080,RSV2-007172,POL-04,IDENTIFICADOR_REPETIDO,id_cita,RSV2-007172,Cada identificador de cita debe ser único,Revisar registros del mismo identificador,DETECTADO,PENDIENTE
+92,RSV2-000092,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000092,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+476,RSV2-000476,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000476,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+826,RSV2-000826,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000826,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+1440,RSV2-001440,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001440,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+1858,RSV2-001858,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001858,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+1937,RSV2-001937,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001937,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+1944,RSV2-001944,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001944,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+1990,RSV2-001990,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001990,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2022,RSV2-002022,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002022,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2068,RSV2-002068,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002068,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2126,RSV2-002126,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002126,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2172,RSV2-002172,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002172,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2190,RSV2-002190,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002190,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2215,RSV2-002215,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002215,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2346,RSV2-002346,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002346,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+2942,RSV2-002942,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002942,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3377,RSV2-003377,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003377,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3379,RSV2-003379,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003379,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3489,RSV2-003489,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003489,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3569,RSV2-003569,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003569,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3591,RSV2-003591,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003591,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+3611,RSV2-003611,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003611,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+4195,RSV2-004195,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004195,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+4264,RSV2-004264,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004264,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+4444,RSV2-004444,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004444,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+5187,RSV2-005187,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005187,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+5482,RSV2-005482,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005482,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+5489,RSV2-005489,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005489,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+5563,RSV2-005563,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005563,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+6111,RSV2-006111,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006111,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+6424,RSV2-006424,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006424,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+6601,RSV2-006601,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006601,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+6963,RSV2-006963,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006963,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7050,RSV2-007050,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007050,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7345,RSV2-007345,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007345,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7352,RSV2-007352,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007352,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7415,RSV2-007415,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007415,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7422,RSV2-007422,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007422,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7705,RSV2-007705,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007705,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7763,RSV2-007763,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007763,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+7932,RSV2-007932,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007932,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9076,RSV2-009076,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009076,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9087,RSV2-009087,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009087,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9091,RSV2-009091,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009091,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9476,RSV2-009476,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009476,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9771,RSV2-009771,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009771,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+9900,RSV2-009900,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009900,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10001,RSV2-002068,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002068,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10002,RSV2-003611,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003611,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10003,RSV2-002346,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002346,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10004,RSV2-001937,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001937,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10005,RSV2-001858,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001858,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10006,RSV2-007352,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007352,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10007,RSV2-002172,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002172,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10008,RSV2-007763,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007763,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10009,RSV2-009087,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009087,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10010,RSV2-005482,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005482,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10011,RSV2-007705,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007705,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10012,RSV2-002942,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002942,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10013,RSV2-000092,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000092,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10014,RSV2-004444,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004444,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10015,RSV2-006424,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006424,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10016,RSV2-006963,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006963,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10017,RSV2-002022,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002022,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10018,RSV2-006111,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006111,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10019,RSV2-001440,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001440,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10020,RSV2-002126,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002126,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10021,RSV2-009476,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009476,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10022,RSV2-009076,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009076,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10023,RSV2-007050,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007050,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10024,RSV2-001990,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001990,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10025,RSV2-003377,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003377,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10026,RSV2-005563,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005563,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10027,RSV2-001944,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-001944,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10028,RSV2-006601,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-006601,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10029,RSV2-003569,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003569,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10030,RSV2-007932,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007932,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10031,RSV2-002215,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002215,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10032,RSV2-000476,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000476,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10033,RSV2-002190,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-002190,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10034,RSV2-003489,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003489,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10035,RSV2-004264,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004264,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10036,RSV2-007422,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007422,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10037,RSV2-005187,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005187,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10038,RSV2-003379,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003379,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10039,RSV2-009771,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009771,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10040,RSV2-004195,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-004195,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10041,RSV2-003591,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-003591,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10042,RSV2-000826,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-000826,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10043,RSV2-007415,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007415,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10044,RSV2-007345,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-007345,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10045,RSV2-005489,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-005489,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10046,RSV2-009091,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009091,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE
+10047,RSV2-009900,POL-04,FILA_COMPLETAMENTE_DUPLICADA,FILA_COMPLETA,RSV2-009900,La combinación de campos originales no debe repetirse,Verificar qué registro debe conservarse,DETECTADO,PENDIENTE

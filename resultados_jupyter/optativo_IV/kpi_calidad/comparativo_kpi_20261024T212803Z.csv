@@ -1,0 +1,4 @@
+﻿Codigo,KPI,Antes,Despues,Meta,Estado
+IND-01,Tasa de integridad de registros de citas,90.87,100.0,>98%,CUMPLE
+IND-02,Porcentaje de registros con categorías no normalizadas,2.71,0.0,<1%,CUMPLE
+IND-04,Porcentaje de filas duplicadas,0.47,0.0,0%,CUMPLE

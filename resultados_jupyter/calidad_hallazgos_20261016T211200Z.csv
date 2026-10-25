@@ -1,0 +1,5 @@
+﻿Hallazgo,Cantidad,Accion
+Sin correspondencia predictiva,1084,Investigar reglas y causas de exclusión
+Registros incompletos,920,Revisar los campos obligatorios
+Registros completos con reglas inválidas,3,Revisar rangos y valores permitidos
+Identificadores duplicados en origen,160,Revisar posibles duplicidades

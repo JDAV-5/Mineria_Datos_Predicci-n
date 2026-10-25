@@ -1,0 +1,11 @@
+﻿id_cita,Estado,Cantidad_errores,Detalle,Caso,Politica_prueba
+PRUEBA-CALIDAD-20261024T184715Z-01,ACEPTADO,0,,Registro completo,POL-02
+PRUEBA-CALIDAD-20261024T184715Z-02,RECHAZADO,1,POL-02: centro_salud vacío,Centro de salud vacío,POL-02
+PRUEBA-CALIDAD-20261024T184715Z-03,ACEPTADO,0,,Categoría válida,POL-03
+PRUEBA-CALIDAD-20261024T184715Z-04,RECHAZADO,1,POL-03: centro_salud fuera de catálogo,Categoría desconocida,POL-03
+PRUEBA-CALIDAD-20261024T184715Z-05A,ACEPTADO,0,,Identificadores diferentes,POL-04
+PRUEBA-CALIDAD-20261024T184715Z-05B,ACEPTADO,0,,Identificadores diferentes,POL-04
+PRUEBA-CALIDAD-20261024T184715Z-06,RECHAZADO,1,POL-04: ID repetido dentro del lote,Identificador repetido,POL-04
+PRUEBA-CALIDAD-20261024T184715Z-06,RECHAZADO,1,POL-04: ID repetido dentro del lote,Identificador repetido,POL-04
+PRUEBA-CALIDAD-20261024T184715Z-07,ACEPTADO,0,,Días de espera válidos,POL-05
+PRUEBA-CALIDAD-20261024T184715Z-08,RECHAZADO,1,POL-05: espera_dias inválido,Días de espera negativos,POL-05

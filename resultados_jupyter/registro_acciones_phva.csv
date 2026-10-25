@@ -1,0 +1,5 @@
+﻿Codigo,Hallazgo,Cantidad,Politica,Accion_propuesta,Responsable_propuesto,Estado,Verificacion,Fecha_revision_UTC
+H01,Registros incompletos,920,POL-02 Completitud,Revisar los campos faltantes y su captura,Admisión y TI,PENDIENTE,Recalcular el KPI de completitud,2026-10-16T21:21:27.618461+00:00
+H02,Valores lógicos inválidos,3,POL-05 Valores anómalos,Revisar los registros y las reglas incumplidas,TI,PENDIENTE,Repetir las validaciones de rangos y valores,2026-10-16T21:21:27.618461+00:00
+H03,Identificadores repetidos,80,POL-04 Duplicidad,Comprobar los grupos repetidos antes de corregir,TI,PENDIENTE,Repetir el control de unicidad,2026-10-16T21:21:27.618461+00:00
+H04,Sin correspondencia predictiva,1084,Revisión de reglas y linaje,Investigar por qué no aparecen en el dataset,TI y calidad,PENDIENTE,Comparar nuevamente origen y destino,2026-10-16T21:21:27.618461+00:00
